@@ -1,0 +1,146 @@
+Sep 13 19:39:46 10.71.51.0 u94551614 Connection from 10.71.51.0 port 13832 on 82.165.80.99 port 22
+Sep 13 19:39:49 10.71.51.0 u94551614 Accepted password for u94551614 from 10.71.51.0 port 13832 ssh2
+Sep 13 19:39:50 10.71.51.0 u94551614 Starting session: subsystem 'sftp' for u94551614 from 10.71.51.0 port 13832
+Sep 13 19:39:50 10.71.51.0 u94551614 session opened for local user u94551614 from [10.71.51.0]
+Sep 13 19:40:11 10.71.51.0 u94551614 sent status No such file
+Sep 13 19:40:10 10.71.51.0 u94551614 Connection from 10.71.51.0 port 46440 on 82.165.80.99 port 22
+Sep 13 19:40:11 10.71.51.0 u94551614 Accepted password for u94551614 from 10.71.51.0 port 46440 ssh2
+Sep 13 19:40:10 10.71.51.0 u94551614 Connection from 10.71.51.0 port 46416 on 82.165.80.99 port 22
+Sep 13 19:40:11 10.71.51.0 u94551614 Accepted password for u94551614 from 10.71.51.0 port 46416 ssh2
+Sep 13 19:40:11 10.71.51.0 u94551614 Starting session: subsystem 'sftp' for u94551614 from 10.71.51.0 port 46440
+Sep 13 19:40:11 10.71.51.0 u94551614 Starting session: subsystem 'sftp' for u94551614 from 10.71.51.0 port 46416
+Sep 13 19:40:11 10.71.51.0 u94551614 session opened for local user u94551614 from [10.71.51.0]
+Sep 13 19:40:11 10.71.51.0 u94551614 session opened for local user u94551614 from [10.71.51.0]
+Sep 13 19:40:12 10.71.51.0 u94551614 open "/index.html" flags READ mode 0666
+Sep 13 19:40:12 10.71.51.0 u94551614 open "/main.html" flags READ mode 0666
+Sep 13 19:40:12 10.71.51.0 u94551614 close "/index.html" bytes read 1610 written 0
+Sep 13 19:40:12 10.71.51.0 u94551614 [10.71.51.0|get|0|1610|0|0|0|2f696e6465782e68746d6c|]
+Sep 13 19:40:12 10.71.51.0 u94551614 close "/main.html" bytes read 1875 written 0
+Sep 13 19:40:12 10.71.51.0 u94551614 [10.71.51.0|get|0|1875|0|0|0|2f6d61696e2e68746d6c|]
+Sep 13 19:40:12 10.71.51.0 u94551614 open "/style.css" flags READ mode 0666
+Sep 13 19:40:12 10.71.51.0 u94551614 open "/simpleGridTemplate.css" flags READ mode 0666
+Sep 13 19:40:13 10.71.51.0 u94551614 close "/style.css" bytes read 3125 written 0
+Sep 13 19:40:13 10.71.51.0 u94551614 [10.71.51.0|get|1|3125|0|0|0|2f7374796c652e637373|]
+Sep 13 19:40:13 10.71.51.0 u94551614 close "/simpleGridTemplate.css" bytes read 4732 written 0
+Sep 13 19:40:13 10.71.51.0 u94551614 [10.71.51.0|get|1|4732|0|0|0|2f73696d706c654772696454656d706c6174652e637373|]
+Sep 13 19:40:13 10.71.51.0 u94551614 open "/silueta-hombre-puesta-sol-gente.png" flags READ mode 0666
+Sep 13 19:40:13 10.71.51.0 u94551614 open "/rutas.png" flags READ mode 0666
+Sep 13 19:40:13 10.71.51.0 u94551614 close "/silueta-hombre-puesta-sol-gente.png" bytes read 21416 written 0
+Sep 13 19:40:13 10.71.51.0 u94551614 [10.71.51.0|get|0|21416|0|0|0|2f73696c756574612d686f6d6272652d7075657374612d736f6c2d67656e74652e706e67|]
+Sep 13 19:40:13 10.71.51.0 u94551614 close "/rutas.png" bytes read 3936 written 0
+Sep 13 19:40:13 10.71.51.0 u94551614 [10.71.51.0|get|0|3936|0|0|0|2f72757461732e706e67|]
+Sep 13 19:40:13 10.71.51.0 u94551614 open "/RoadMap MYL.xlsx" flags READ mode 0666
+Sep 13 19:40:13 10.71.51.0 u94551614 open "/otros.png" flags READ mode 0666
+Sep 13 19:40:13 10.71.51.0 u94551614 close "/RoadMap MYL.xlsx" bytes read 12276 written 0
+Sep 13 19:40:13 10.71.51.0 u94551614 [10.71.51.0|get|0|12276|0|0|0|2f526f61644d6170204d594c2e786c7378|]
+Sep 13 19:40:13 10.71.51.0 u94551614 close "/otros.png" bytes read 4081 written 0
+Sep 13 19:40:13 10.71.51.0 u94551614 [10.71.51.0|get|0|4081|0|0|0|2f6f74726f732e706e67|]
+Sep 13 19:40:13 10.71.51.0 u94551614 open "/MYL - Acceso directo.lnk" flags READ mode 0666
+Sep 13 19:40:14 10.71.51.0 u94551614 open "/mainv2.html" flags READ mode 0666
+Sep 13 19:40:14 10.71.51.0 u94551614 close "/MYL - Acceso directo.lnk" bytes read 857 written 0
+Sep 13 19:40:14 10.71.51.0 u94551614 [10.71.51.0|get|1|857|0|0|0|2f4d594c202d2041636365736f206469726563746f2e6c6e6b|]
+Sep 13 19:40:14 10.71.51.0 u94551614 close "/mainv2.html" bytes read 3459 written 0
+Sep 13 19:40:14 10.71.51.0 u94551614 [10.71.51.0|get|0|3459|0|0|0|2f6d61696e76322e68746d6c|]
+Sep 13 19:40:14 10.71.51.0 u94551614 open "/main.txt" flags READ mode 0666
+Sep 13 19:40:14 10.71.51.0 u94551614 open "/lupa.png" flags READ mode 0666
+Sep 13 19:40:14 10.71.51.0 u94551614 close "/main.txt" bytes read 3443 written 0
+Sep 13 19:40:14 10.71.51.0 u94551614 [10.71.51.0|get|0|3443|0|0|0|2f6d61696e2e747874|]
+Sep 13 19:40:14 10.71.51.0 u94551614 close "/lupa.png" bytes read 2414 written 0
+Sep 13 19:40:14 10.71.51.0 u94551614 [10.71.51.0|get|0|2414|0|0|0|2f6c7570612e706e67|]
+Sep 13 19:40:14 10.71.51.0 u94551614 open "/Logo.PNG" flags READ mode 0666
+Sep 13 19:40:14 10.71.51.0 u94551614 open "/inicio-sesion.png" flags READ mode 0666
+Sep 13 19:40:14 10.71.51.0 u94551614 close "/Logo.PNG" bytes read 7939 written 0
+Sep 13 19:40:14 10.71.51.0 u94551614 [10.71.51.0|get|0|7939|0|0|0|2f4c6f676f2e504e47|]
+Sep 13 19:40:15 10.71.51.0 u94551614 close "/inicio-sesion.png" bytes read 953 written 0
+Sep 13 19:40:15 10.71.51.0 u94551614 [10.71.51.0|get|1|953|0|0|0|2f696e6963696f2d736573696f6e2e706e67|]
+Sep 13 19:40:15 10.71.51.0 u94551614 open "/httpd.conf" flags READ mode 0666
+Sep 13 19:40:15 10.71.51.0 u94551614 open "/gente.jpg" flags READ mode 0666
+Sep 13 19:40:15 10.71.51.0 u94551614 close "/httpd.conf" bytes read 275 written 0
+Sep 13 19:40:15 10.71.51.0 u94551614 [10.71.51.0|get|0|275|0|0|0|2f68747470642e636f6e66|]
+Sep 13 19:40:15 10.71.51.0 u94551614 close "/gente.jpg" bytes read 18213 written 0
+Sep 13 19:40:15 10.71.51.0 u94551614 [10.71.51.0|get|0|18213|0|0|0|2f67656e74652e6a7067|]
+Sep 13 19:40:15 10.71.51.0 u94551614 open "/deportes.png" flags READ mode 0666
+Sep 13 19:40:15 10.71.51.0 u94551614 open "/deporte.png" flags READ mode 0666
+Sep 13 19:40:15 10.71.51.0 u94551614 close "/deportes.png" bytes read 4689 written 0
+Sep 13 19:40:15 10.71.51.0 u94551614 [10.71.51.0|get|0|4689|0|0|0|2f6465706f727465732e706e67|]
+Sep 13 19:40:15 10.71.51.0 u94551614 close "/deporte.png" bytes read 4035 written 0
+Sep 13 19:40:15 10.71.51.0 u94551614 [10.71.51.0|get|0|4035|0|0|0|2f6465706f7274652e706e67|]
+Sep 13 19:40:15 10.71.51.0 u94551614 open "/comidas.png" flags READ mode 0666
+Sep 13 19:40:15 10.71.51.0 u94551614 open "/ayuda.png" flags READ mode 0666
+Sep 13 19:40:16 10.71.51.0 u94551614 close "/comidas.png" bytes read 4487 written 0
+Sep 13 19:40:16 10.71.51.0 u94551614 [10.71.51.0|get|1|4487|0|0|0|2f636f6d696461732e706e67|]
+Sep 13 19:40:16 10.71.51.0 u94551614 close "/ayuda.png" bytes read 2707 written 0
+Sep 13 19:40:16 10.71.51.0 u94551614 [10.71.51.0|get|1|2707|0|0|0|2f61797564612e706e67|]
+Sep 13 19:40:16 10.71.51.0 u94551614 open "/1.png" flags READ mode 0666
+Sep 13 19:40:16 10.71.51.0 u94551614 open "/1.php" flags READ mode 0666
+Sep 13 19:40:16 10.71.51.0 u94551614 close "/1.png" bytes read 1321 written 0
+Sep 13 19:40:16 10.71.51.0 u94551614 [10.71.51.0|get|0|1321|0|0|0|2f312e706e67|]
+Sep 13 19:40:16 10.71.51.0 u94551614 close "/1.php" bytes read 122 written 0
+Sep 13 19:40:16 10.71.51.0 u94551614 [10.71.51.0|get|0|122|0|0|0|2f312e706870|]
+Sep 13 19:40:16 10.71.51.0 u94551614 open "/.buildpath" flags READ mode 0666
+Sep 13 19:40:16 10.71.51.0 u94551614 open "/.project" flags READ mode 0666
+Sep 13 19:40:16 10.71.51.0 u94551614 close "/.buildpath" bytes read 174 written 0
+Sep 13 19:40:16 10.71.51.0 u94551614 [10.71.51.0|get|0|174|0|0|0|2f2e6275696c6470617468|]
+Sep 13 19:40:16 10.71.51.0 u94551614 close "/.project" bytes read 728 written 0
+Sep 13 19:40:16 10.71.51.0 u94551614 [10.71.51.0|get|0|728|0|0|0|2f2e70726f6a656374|]
+Sep 13 19:40:16 10.71.51.0 u94551614 open "/readme.txt" flags READ mode 0666
+Sep 13 19:40:17 10.71.51.0 u94551614 open "/process_form.php" flags READ mode 0666
+Sep 13 19:40:17 10.71.51.0 u94551614 close "/readme.txt" bytes read 354 written 0
+Sep 13 19:40:17 10.71.51.0 u94551614 [10.71.51.0|get|1|354|0|0|0|2f726561646d652e747874|]
+Sep 13 19:40:17 10.71.51.0 u94551614 close "/process_form.php" bytes read 1302 written 0
+Sep 13 19:40:17 10.71.51.0 u94551614 [10.71.51.0|get|0|1302|0|0|0|2f70726f636573735f666f726d2e706870|]
+Sep 13 19:40:17 10.71.51.0 u94551614 open "/background_color.html" flags READ mode 0666
+Sep 13 19:40:17 10.71.51.0 u94551614 close "/background_color.html" bytes read 9408 written 0
+Sep 13 19:40:17 10.71.51.0 u94551614 [10.71.51.0|get|0|9408|0|0|0|2f6261636b67726f756e645f636f6c6f722e68746d6c|]
+Sep 13 19:40:17 10.71.51.0 u94551614 open "/logs/access.log.37.2.gz" flags READ mode 0666
+Sep 13 19:40:17 10.71.51.0 u94551614 close "/logs/access.log.37.2.gz" bytes read 315 written 0
+Sep 13 19:40:17 10.71.51.0 u94551614 [10.71.51.0|get|0|315|0|0|0|2f6c6f67732f6163636573732e6c6f672e33372e322e677a|]
+Sep 13 19:40:17 10.71.51.0 u94551614 open "/logs/access.log.35.gz" flags READ mode 0666
+Sep 13 19:40:18 10.71.51.0 u94551614 open "/logs/sftp.log.36.gz" flags READ mode 0666
+Sep 13 19:40:18 10.71.51.0 u94551614 close "/logs/access.log.35.gz" bytes read 2738 written 0
+Sep 13 19:40:18 10.71.51.0 u94551614 [10.71.51.0|get|1|2738|0|0|0|2f6c6f67732f6163636573732e6c6f672e33352e677a|]
+Sep 13 19:40:18 10.71.51.0 u94551614 close "/logs/sftp.log.36.gz" bytes read 3571 written 0
+Sep 13 19:40:18 10.71.51.0 u94551614 [10.71.51.0|get|0|3571|0|0|0|2f6c6f67732f736674702e6c6f672e33362e677a|]
+Sep 13 19:40:18 10.71.51.0 u94551614 open "/logs/access.log.36.7.gz" flags READ mode 0666
+Sep 13 19:40:18 10.71.51.0 u94551614 open "/logs/access.log.36.6.gz" flags READ mode 0666
+Sep 13 19:40:18 10.71.51.0 u94551614 close "/logs/access.log.36.7.gz" bytes read 393 written 0
+Sep 13 19:40:18 10.71.51.0 u94551614 [10.71.51.0|get|0|393|0|0|0|2f6c6f67732f6163636573732e6c6f672e33362e372e677a|]
+Sep 13 19:40:18 10.71.51.0 u94551614 close "/logs/access.log.36.6.gz" bytes read 283 written 0
+Sep 13 19:40:18 10.71.51.0 u94551614 [10.71.51.0|get|0|283|0|0|0|2f6c6f67732f6163636573732e6c6f672e33362e362e677a|]
+Sep 13 19:40:18 10.71.51.0 u94551614 open "/logs/access.log.36.5.gz" flags READ mode 0666
+Sep 13 19:40:18 10.71.51.0 u94551614 open "/logs/access.log.36.4.gz" flags READ mode 0666
+Sep 13 19:40:18 10.71.51.0 u94551614 close "/logs/access.log.36.5.gz" bytes read 627 written 0
+Sep 13 19:40:18 10.71.51.0 u94551614 [10.71.51.0|get|0|627|0|0|0|2f6c6f67732f6163636573732e6c6f672e33362e352e677a|]
+Sep 13 19:40:18 10.71.51.0 u94551614 close "/logs/access.log.36.4.gz" bytes read 232 written 0
+Sep 13 19:40:18 10.71.51.0 u94551614 [10.71.51.0|get|0|232|0|0|0|2f6c6f67732f6163636573732e6c6f672e33362e342e677a|]
+Sep 13 19:40:18 10.71.51.0 u94551614 open "/logs/access.log.36.3.gz" flags READ mode 0666
+Sep 13 19:40:19 10.71.51.0 u94551614 open "/logs/access.log.36.2.gz" flags READ mode 0666
+Sep 13 19:40:19 10.71.51.0 u94551614 close "/logs/access.log.36.3.gz" bytes read 570 written 0
+Sep 13 19:40:19 10.71.51.0 u94551614 [10.71.51.0|get|1|570|0|0|0|2f6c6f67732f6163636573732e6c6f672e33362e332e677a|]
+Sep 13 19:40:19 10.71.51.0 u94551614 close "/logs/access.log.36.2.gz" bytes read 492 written 0
+Sep 13 19:40:19 10.71.51.0 u94551614 [10.71.51.0|get|0|492|0|0|0|2f6c6f67732f6163636573732e6c6f672e33362e322e677a|]
+Sep 13 19:40:19 10.71.51.0 u94551614 open "/logs/access.log.36.1.gz" flags READ mode 0666
+Sep 13 19:40:19 10.71.51.0 u94551614 open "/logs/access.log.34.gz" flags READ mode 0666
+Sep 13 19:40:19 10.71.51.0 u94551614 close "/logs/access.log.36.1.gz" bytes read 287 written 0
+Sep 13 19:40:19 10.71.51.0 u94551614 [10.71.51.0|get|0|287|0|0|0|2f6c6f67732f6163636573732e6c6f672e33362e312e677a|]
+Sep 13 19:40:19 10.71.51.0 u94551614 close "/logs/access.log.34.gz" bytes read 6013 written 0
+Sep 13 19:40:19 10.71.51.0 u94551614 [10.71.51.0|get|0|6013|0|0|0|2f6c6f67732f6163636573732e6c6f672e33342e677a|]
+Sep 13 19:40:19 10.71.51.0 u94551614 open "/logs/sftp.log.35.gz" flags READ mode 0666
+Sep 13 19:40:19 10.71.51.0 u94551614 open "/logs/access.log.37.4" flags READ mode 0666
+Sep 13 19:40:20 10.71.51.0 u94551614 close "/logs/access.log.37.4" bytes read 2594 written 0
+Sep 13 19:40:20 10.71.51.0 u94551614 [10.71.51.0|get|1|2594|0|0|0|2f6c6f67732f6163636573732e6c6f672e33372e34|]
+Sep 13 19:40:20 10.71.51.0 u94551614 close "/logs/sftp.log.35.gz" bytes read 5583 written 0
+Sep 13 19:40:20 10.71.51.0 u94551614 [10.71.51.0|get|1|5583|0|0|0|2f6c6f67732f736674702e6c6f672e33352e677a|]
+Sep 13 19:40:20 10.71.51.0 u94551614 open "/logs/access.log.37.1.gz" flags READ mode 0666
+Sep 13 19:40:20 10.71.51.0 u94551614 open "/logs/access.log.33.gz" flags READ mode 0666
+Sep 13 19:40:20 10.71.51.0 u94551614 close "/logs/access.log.37.1.gz" bytes read 360 written 0
+Sep 13 19:40:20 10.71.51.0 u94551614 [10.71.51.0|get|0|360|0|0|0|2f6c6f67732f6163636573732e6c6f672e33372e312e677a|]
+Sep 13 19:40:20 10.71.51.0 u94551614 close "/logs/access.log.33.gz" bytes read 2835 written 0
+Sep 13 19:40:20 10.71.51.0 u94551614 [10.71.51.0|get|0|2835|0|0|0|2f6c6f67732f6163636573732e6c6f672e33332e677a|]
+Sep 13 19:40:20 10.71.51.0 u94551614 open "/logs/sftp.log.34.gz" flags READ mode 0666
+Sep 13 19:40:20 10.71.51.0 u94551614 open "/logs/ftp.log.34.gz" flags READ mode 0666
+Sep 13 19:40:20 10.71.51.0 u94551614 close "/logs/sftp.log.34.gz" bytes read 15632 written 0
+Sep 13 19:40:20 10.71.51.0 u94551614 [10.71.51.0|get|0|15632|0|0|0|2f6c6f67732f736674702e6c6f672e33342e677a|]
+Sep 13 19:40:21 10.71.51.0 u94551614 close "/logs/ftp.log.34.gz" bytes read 415 written 0
+Sep 13 19:40:21 10.71.51.0 u94551614 [10.71.51.0|get|1|415|0|0|0|2f6c6f67732f6674702e6c6f672e33342e677a|]
+Sep 13 19:40:21 10.71.51.0 u94551614 open "/logs/sftp.log" flags READ mode 0666
