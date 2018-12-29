@@ -1,0 +1,75 @@
+<?php
+header('Content-Type: text/html; charset=utf-8');
+
+if (isset($_POST["curso"])) {
+	$curso = $_POST["curso"];
+} else {
+	echo '<p>Error, no se ha introducido un curso correcto</p>';
+}
+
+if (isset($_POST["asignatura"])) {
+	$asignatura = $_POST["asignatura"];
+} else {
+	echo "<p>Error, no se ha introducido una asignatura correcta</p>";
+}
+
+if (isset($_POST["bloque"])) {
+	$bloque = $_POST["bloque"];
+} else {
+	echo "<p>Error, no se ha introducido un bloque correcto</p>";
+}
+
+if (isset($_POST["enunciado"])) {
+	$enunciado = $_POST["enunciado"];
+} else {
+	echo "<p>Error, no se ha introducido un enunciado correcto</p>";
+}
+
+if (isset($_POST["enlace"])) {
+	$enlace = $_POST["enlace"];
+} else {
+	echo "<p>Error, no se ha introducido un enlace correcto</p>";
+}
+
+if (isset($_POST["usuario"])) {
+	$usuario = $_POST["usuario"];
+} else {
+	echo "<p>Error, no se ha introducido un enunciado correcto</p>";
+}
+
+if (isset($_POST["password"])) {
+	$password = $_POST["password"];
+} else {
+	echo "<p>Error, no se ha introducido un enunciado correcto</p>";
+}
+
+if ($usuario == "simedejas" && $password == "TeLaMeto!") {
+	echo "<p>Usuario y contraseña correctos. Estableciendo conexión a base de datos</p>";
+	// Create connection
+	$host = "db566646056.db.1and1.com";
+	$usuario = "dbo566646056";
+	$password="F1s1c0sYFr1k1s";
+	$db ="db566646056";
+	$con = new mysqli($host, $usuario, $password, $db);
+	$acentos = $con -> query("SET NAMES 'utf8'");
+	
+	// Check  connection
+	if ($con -> connect_errno > 0) {
+		die('Unable to connect to database [' . $db -> connect_error . ']');
+	}
+	$stm = $con->prepare("INSERT INTO soluciones (curso,asignatura,enunciado,enlace,fecha,bloque) values (?,?,?,?,NOW(),?) ");
+	$stm -> bind_param("sssss",$curso,$asignatura,$enunciado,$enlace,$bloque);
+	$stm -> execute();
+	
+	
+	echo "<p>Se ha introducido el nuevo contenido. Eres un máquina!</p>";
+	
+	
+}else{
+	echo "<p>El usuario y la contraseña no son correctos</p>";
+}
+
+echo "<a href='http://localhost/problemas/metedatos.html'>Volver a la página de introducción de datos</a>";
+
+
+?>

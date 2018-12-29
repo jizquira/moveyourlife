@@ -1,3 +1,37 @@
+function listaActividades() {
+	$.getJSON( "forms/lista_actividades.php", { "parametro1" : "valor1"} )
+    .done(function( data, textStatus, errorThrown ) {
+    	$('#listado_actividades').empty()
+		$('#listado_actividades').append("<table>");
+		$('#listado_actividades').append("<tr>");
+		$('#listado_actividades').append("<th> Evento </th>");
+		$('#listado_actividades').append("<th> Descripción </th>");
+		$('#listado_actividades').append("<th> Precio (€)</th>");
+		$('#listado_actividades').append("<th> Límite de personas </th>");
+		$('#listado_actividades').append("<th> Fecha </th>");
+		$('#listado_actividades').append("<th> Hora inicio </th>");
+		$('#listado_actividades').append("<th> Duración </th>");
+		$('#listado_actividades').append("</tr>");
+    	for (var i in data) {
+    		$('#listado_actividades').append("<tr>");
+    		$('#listado_actividades').append("<td>" + data[i].summary + "</td>");
+    		$('#listado_actividades').append("<td>" + data[i].descripcion + "</td>");
+    		$('#listado_actividades').append("<td>" + data[i].precio + "</td>");
+    		$('#listado_actividades').append("<td>" + data[i].limite + "</td>");
+    		$('#listado_actividades').append("<td>" + data[i].fecha + "</td>");
+    		$('#listado_actividades').append("<td>" + data[i].hora + "</td>");
+    		$('#listado_actividades').append("<td>" + data[i].duracion + "</td>");
+    		$('#listado_actividades').append("</tr>");
+    	}
+		$('#listado_actividades').append("</table>");
+    })
+    .fail(function( jqXHR, textStatus, errorThrown ) {
+        if ( console && console.log ) {
+            console.log( "Algo ha fallado: " +  textStatus + errorThrown);
+        }
+    });
+}
+
 function initMap() {
         var myLatLng = {lat: 38.361222, lng: -0.487733};
 
