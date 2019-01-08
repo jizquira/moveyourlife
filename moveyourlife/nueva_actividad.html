@@ -1,42 +1,48 @@
 <!doctype html>
-<title>Metedatos</title>
+<title>Crea una nueva actividad</title>
 <head>
 <meta charset="utf-8">
 </head>
 <html>
 <body>
-	<h1>Página de introducción de ejercicios de Solución a tus
-		problemas</h1>
-	<form id="datos" action="forms/metedatos.php" method="post">
+	<h1>Introduce todos los datos relativos a tu actividad</h1>
+	<form id="datos" action="forms/nueva_actividad.php" method="post">
 		<p>
-			Curso: <input type="text" id="curso" name="curso" size="25"
-				maxlength="100" required />
+			Título <input type="text" id="summary" name="summary" size="100"
+				maxlength="255" required />
 		</p>
 		<p>
-			Asignatura: <input id="asignatura" type="text" name="asignatura"
-				size="25" maxlength="100" required />
+			Descripción <input type="text" id="descripcion" name="descripcion" size="100"
+				maxlength="3000" required />
 		</p>
 		<p>
-			Bloque: <input id="bloque" type="text" name="bloque" size="25"
-				maxlength="100" required />
+			Tipo de actividad <input type="text" id="tipo" name="tipo" size="100"
+				maxlength="255" required />
 		</p>
 		<p>
-			Enunciado: <input id="enunciado" type="text" name="enunciado"
-				size="25" maxlength="1000" required />
+			Límite de personas <input type="number" id="limite" name="limite" size="2"
+				maxlength="2" required />
 		</p>
 		<p>
-			Enlace: <input id="enlace" type="text" name="enlace" size="50"
-				maxlength="100" required />
+			Precio por persona <input type="number" id="precio" name="precio" step='0.01' size="10"
+				maxlength="10" required />
 		</p>
 		<p>
-			Usuario: <input id="usuario" type="text" name="usuario" size="50"
-				maxlength="100" required />
+			Fecha <input type="date" id="fecha" name="fecha"  required />
 		</p>
 		<p>
-			Contraseña: <input id="password" type="password" name="password"
-				size="50" maxlength="100" required />
+			Hora <input type="time" id="hora" name="hora"  required />
 		</p>
-		<input type="submit" name="submit" value="Vamos para adentro!" />
+		<p>
+			Duración (horas) <input type="number" id="duracion" name="duracion"  required />
+		</p>
+		<p>
+			Ubicación X <input type="number" id="ubicacionx" name="ubicacionx" step='0.00001' required />
+		</p>
+		<p>
+			Ubicación Y <input type="number" id="ubicaciony" name="ubicaciony" step='0.00001'  required />
+		</p>
+		<input type="submit" name="submit" value="!Crear!" />
 	</form>
 </body>
 </html>
