@@ -1,48 +1,59 @@
-<!doctype html>
-<title>Crea una nueva actividad</title>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-<meta charset="utf-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Move your life: La diversión ha comenzado -- página web en construcción</title>
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 </head>
 <html>
 <body>
-	<h1>Introduce todos los datos relativos a tu actividad</h1>
-	<form id="datos" action="forms/nueva_actividad.php" method="post">
-		<p>
-			Título <input type="text" id="summary" name="summary" size="100"
-				maxlength="255" required />
-		</p>
-		<p>
-			Descripción <input type="text" id="descripcion" name="descripcion" size="100"
-				maxlength="3000" required />
-		</p>
-		<p>
-			Tipo de actividad <input type="text" id="tipo" name="tipo" size="100"
-				maxlength="255" required />
-		</p>
-		<p>
-			Límite de personas <input type="number" id="limite" name="limite" size="2"
-				maxlength="2" required />
-		</p>
-		<p>
-			Precio por persona <input type="number" id="precio" name="precio" step='0.01' size="10"
-				maxlength="10" required />
-		</p>
-		<p>
-			Fecha <input type="date" id="fecha" name="fecha"  required />
-		</p>
-		<p>
-			Hora <input type="time" id="hora" name="hora"  required />
-		</p>
-		<p>
-			Duración (horas) <input type="number" id="duracion" name="duracion"  required />
-		</p>
-		<p>
-			Ubicación X <input type="number" id="ubicacionx" name="ubicacionx" step='0.00001' required />
-		</p>
-		<p>
-			Ubicación Y <input type="number" id="ubicaciony" name="ubicaciony" step='0.00001'  required />
-		</p>
-		<input type="submit" name="submit" value="!Crear!" />
-	</form>
+	<header>
+		<h1><a href='index.html' style="color:white;text-decoration: none;"> MoveYourLife!</a></h1>
+		<img class="imagen" src="inicio-sesion.png" width="20" height="20">
+		<img class="imagen" src="ayuda.png" width="20" height="20">
+		<img class="imagen" src="lupa.png" width="20" height="20">
+	</header>
+	<div class="container">
+		<h1>Introduce todos los datos relativos a tu actividad</h1>
+		<form id="datos" action="forms/nueva_actividad.php" method="post">
+			<p>
+				Título <input type="text" id="summary" name="summary" size="100"
+					maxlength="255" required />
+			</p>
+			<p>
+				Descripción <input type="text" id="descripcion" name="descripcion" size="100"
+					maxlength="3000" required />
+			</p>
+			<p>
+				Tipo de actividad <input type="text" id="tipo" name="tipo" size="100"
+					maxlength="255" required />
+			</p>
+			<p>
+				Límite de personas <input type="number" id="limite" name="limite" size="2"
+					maxlength="2" required />
+			</p>
+			<p>
+				Precio por persona <input type="number" id="precio" name="precio" step='0.01' size="10"
+					maxlength="10" required />
+			</p>
+			<p>
+				Fecha <input type="date" id="fecha" name="fecha"  required />
+			</p>
+			<p>
+				Hora <input type="time" id="hora" name="hora"  required />
+			</p>
+			<p>
+				Duración (horas) <input type="number" id="duracion" name="duracion"  required />
+			</p>
+			<p>
+				Ubicación X <input type="number" id="ubicacionx" name="ubicacionx" step='0.00001' required />
+			</p>
+			<p>
+				Ubicación Y <input type="number" id="ubicaciony" name="ubicaciony" step='0.00001'  required />
+			</p>
+			<input type="submit" name="submit" value="!Crear!" />
+		</form>
+	</div>
 </body>
 </html>

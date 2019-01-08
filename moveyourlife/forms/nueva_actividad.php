@@ -68,13 +68,15 @@ if ($con -> connect_errno > 0) {
 }
 $stm = $con->prepare("INSERT INTO actividades (ID_CREADOR,LIM_PERSONAS,SUMMARY,DESCRIPCION,UBICACION_X,UBICACION_Y,TARIFA,TIPO_ACT,FECHA,HORA_INICIO,DURACION) values (?,?,?,?,?,?,?,?,?,?,?) ");
 $stm -> bind_param("iissdddsiid",$creador,$limite,$summary,$descripcion,$ubicacionx,$ubicaciony,$precio,$tipo, $fecha,$hora,$duracion);
-$stm -> execute();
-printf("Error: %s.\n", $stm->error);
-// Check  connection
+;
+if ($stm -> execute()) {
+    echo "<p>Se ha introducido el nuevo contenido. </p>"; 
+} else {
+    echo "<p>Se ha producido un error. Pruebe de nuevo, si el error persiste, contacte con el administrador</p>";
+}
 
-echo "<p>Se ha introducido el nuevo contenido. Eres un m�quina!</p>";
+echo "<a href='../index.html'> Volver al principal</a>";
 
-//echo "<a href='http://www.solucionatusproblemas.es/metedatos.html'>Volver a la página de introducción de datos</a>";
 
 
 ?>

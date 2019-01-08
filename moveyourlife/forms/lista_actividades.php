@@ -10,7 +10,7 @@ $servidor = "localhost";
 $usuario = "root";
 $password = "";
 $tabla = "db750092745";
-$maximo = 10;
+$maximo = 20;
 //
 $con = new mysqli($servidor, $usuario, $password, $tabla);
 $acentos = $con -> query("SET NAMES 'utf8'");
